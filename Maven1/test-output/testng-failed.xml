@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionSuit]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FirefoxTest(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="test.TestNg1">
+        <methods>
+          <include name="logoutform"/>
+          <include name="openmessenger"/>
+          <include name="closeform"/>
+          <include name="verifyurl"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- test.TestNg1 -->
+      <class name="test.TestNg">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="verifyurl"/>
+          <include name="closeform"/>
+          <include name="logoutform"/>
+          <include name="openmessenger"/>
+        </methods>
+      </class> <!-- test.TestNg -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [RegressionSuit] -->

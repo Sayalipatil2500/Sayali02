@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="2" failed="0" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-21T11:04:25 IST" name="RegressionSuit" finished-at="2024-02-21T11:05:41 IST" duration-ms="75811">
+    <groups>
+    </groups>
+    <test started-at="2024-02-21T11:04:25 IST" name="ChromeTest" finished-at="2024-02-21T11:05:40 IST" duration-ms="75411">
+      <class name="test.TestNg1">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:test.TestNg1@5e5d171f]" started-at="2024-02-21T11:04:26 IST" name="openBrowser" finished-at="2024-02-21T11:04:27 IST" duration-ms="963" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.TestNg1@5e5d171f]" started-at="2024-02-21T11:04:50 IST" name="openBrowser" finished-at="2024-02-21T11:04:54 IST" duration-ms="3131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openmessenger()[pri:0, instance:test.TestNg1@5e5d171f]" started-at="2024-02-21T11:04:54 IST" name="openmessenger" finished-at="2024-02-21T11:05:40 IST" duration-ms="46522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openmessenger -->
+        <test-method signature="verifyurl()[pri:0, instance:test.TestNg1@5e5d171f]" started-at="2024-02-21T11:05:40 IST" name="verifyurl" finished-at="2024-02-21T11:05:40 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyurl -->
+        <test-method is-config="true" signature="logoutform()[pri:0, instance:test.TestNg1@5e5d171f]" started-at="2024-02-21T11:05:40 IST" name="logoutform" finished-at="2024-02-21T11:05:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutform -->
+        <test-method is-config="true" signature="closeform()[pri:0, instance:test.TestNg1@5e5d171f]" started-at="2024-02-21T11:05:40 IST" name="closeform" finished-at="2024-02-21T11:05:40 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeform -->
+      </class> <!-- test.TestNg1 -->
+      <class name="test.TestNg">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:test.TestNg@2362f559]" started-at="2024-02-21T11:04:25 IST" name="openBrowser" finished-at="2024-02-21T11:04:26 IST" duration-ms="1611" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.TestNg@2362f559]" started-at="2024-02-21T11:04:27 IST" name="openBrowser" finished-at="2024-02-21T11:04:29 IST" duration-ms="1202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openmessenger()[pri:0, instance:test.TestNg@2362f559]" started-at="2024-02-21T11:04:29 IST" name="openmessenger" finished-at="2024-02-21T11:04:50 IST" duration-ms="21638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openmessenger -->
+        <test-method signature="verifyurl()[pri:0, instance:test.TestNg@2362f559]" started-at="2024-02-21T11:04:50 IST" name="verifyurl" finished-at="2024-02-21T11:04:50 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyurl -->
+        <test-method is-config="true" signature="logoutform()[pri:0, instance:test.TestNg@2362f559]" started-at="2024-02-21T11:04:50 IST" name="logoutform" finished-at="2024-02-21T11:04:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutform -->
+        <test-method is-config="true" signature="closeform()[pri:0, instance:test.TestNg@2362f559]" started-at="2024-02-21T11:04:50 IST" name="closeform" finished-at="2024-02-21T11:04:50 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeform -->
+      </class> <!-- test.TestNg -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2024-02-21T11:05:40 IST" name="FirefoxTest" finished-at="2024-02-21T11:05:41 IST" duration-ms="338">
+      <class name="test.TestNg1">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:test.TestNg1@561b6512]" started-at="2024-02-21T11:05:41 IST" name="openBrowser" finished-at="2024-02-21T11:05:41 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.TestNg1@561b6512]" started-at="2024-02-21T11:05:41 IST" name="openBrowser" finished-at="2024-02-21T11:05:41 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openmessenger()[pri:0, instance:test.TestNg1@561b6512]" started-at="2024-02-21T11:05:41 IST" name="openmessenger" finished-at="2024-02-21T11:05:41 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openmessenger -->
+        <test-method signature="verifyurl()[pri:0, instance:test.TestNg1@561b6512]" started-at="2024-02-21T11:05:41 IST" name="verifyurl" finished-at="2024-02-21T11:05:41 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created: No matching capabilities found
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-FF0GEORH', ip: '192.168.184.86', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: No matching capabilities found
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-FF0GEORH', ip: '192.168.184.86', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:246)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:168)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:198)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:186)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:164)
+at test.TestNg.openBrowser(TestNg.java:39)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:661)
+at org.testng.TestRunner.beforeRun(TestRunner.java:650)
+at org.testng.TestRunner.run(TestRunner.java:612)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyurl -->
+        <test-method is-config="true" signature="logoutform()[pri:0, instance:test.TestNg1@561b6512]" started-at="2024-02-21T11:05:41 IST" name="logoutform" finished-at="2024-02-21T11:05:41 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutform -->
+        <test-method is-config="true" signature="closeform()[pri:0, instance:test.TestNg1@561b6512]" started-at="2024-02-21T11:05:41 IST" name="closeform" finished-at="2024-02-21T11:05:41 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeform -->
+      </class> <!-- test.TestNg1 -->
+      <class name="test.TestNg">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:test.TestNg@7494f96a]" started-at="2024-02-21T11:05:40 IST" name="openBrowser" finished-at="2024-02-21T11:05:41 IST" duration-ms="312" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created: No matching capabilities found
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-FF0GEORH', ip: '192.168.184.86', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: No matching capabilities found
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-FF0GEORH', ip: '192.168.184.86', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:246)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:168)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:198)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:186)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:164)
+at test.TestNg.openBrowser(TestNg.java:39)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:661)
+at org.testng.TestRunner.beforeRun(TestRunner.java:650)
+at org.testng.TestRunner.run(TestRunner.java:612)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.TestNg@7494f96a]" started-at="2024-02-21T11:05:41 IST" name="openBrowser" finished-at="2024-02-21T11:05:41 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openmessenger()[pri:0, instance:test.TestNg@7494f96a]" started-at="2024-02-21T11:05:41 IST" name="openmessenger" finished-at="2024-02-21T11:05:41 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openmessenger -->
+        <test-method signature="verifyurl()[pri:0, instance:test.TestNg@7494f96a]" started-at="2024-02-21T11:05:41 IST" name="verifyurl" finished-at="2024-02-21T11:05:41 IST" duration-ms="1" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created: No matching capabilities found
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-FF0GEORH', ip: '192.168.184.86', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: No matching capabilities found
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-FF0GEORH', ip: '192.168.184.86', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:246)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:168)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:198)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:186)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:164)
+at test.TestNg.openBrowser(TestNg.java:39)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:661)
+at org.testng.TestRunner.beforeRun(TestRunner.java:650)
+at org.testng.TestRunner.run(TestRunner.java:612)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyurl -->
+        <test-method is-config="true" signature="logoutform()[pri:0, instance:test.TestNg@7494f96a]" started-at="2024-02-21T11:05:41 IST" name="logoutform" finished-at="2024-02-21T11:05:41 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutform -->
+        <test-method is-config="true" signature="closeform()[pri:0, instance:test.TestNg@7494f96a]" started-at="2024-02-21T11:05:41 IST" name="closeform" finished-at="2024-02-21T11:05:41 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeform -->
+      </class> <!-- test.TestNg -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- RegressionSuit -->
+</testng-results>
